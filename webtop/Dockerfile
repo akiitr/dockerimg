@@ -69,7 +69,7 @@ RUN apt-get update && \
        /tmp/obsidian_latest_amd64.deb 
     #bought from prev line    && \
     # \
-    # # Final cleanup to reduce image size significantly
+    # # Final cleanup to reduce image size significantly (Not recommened causing issue)
     # apt-get autoremove -y && \
     # apt-get clean && \
     # rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
